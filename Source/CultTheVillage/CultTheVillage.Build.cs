@@ -33,7 +33,8 @@ public class CultTheVillage : ModuleRules
         PublicIncludePaths.AddRange(new string[] {
             "CultTheVillage",
             "CultTheVillage/PlayLevel(s)",
-            "CultTheVillage/Pathfinding"
+            "CultTheVillage/Pathfinding",
+            "CultTheVillage/Dialogue"
         });
 
         // Uncomment if you are using Slate UI
