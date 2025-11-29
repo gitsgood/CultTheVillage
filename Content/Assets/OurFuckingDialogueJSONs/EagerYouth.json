@@ -1,0 +1,64 @@
+{
+	"NPCId": "HarryBazile",
+	"Nodes": 
+	[
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "I see *PLAYER*. I will be there, I swear it.",
+			"OutgoingEdgeIds": ["Edge1"]
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "Uhhhh... my name is Harry, not Henry *PLAYER*. I think I will pass on that. It seems you might not need me.",
+			"OutgoingEdgeIds": ["Edge3"]
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "Yes, *PLAYER*! I will be there!",
+			"OutgoingEdgeIds": ["Edge6"]
+		},
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Oh hey *PLAYER*, how goes it? I heard the *REGIME* is coming in. What should we do?",
+			"OutgoingEdgeIds": ["Edge0", "Edge2", "Edge4", "Edge5"]
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "Blessings of *CULT NAME* upon you young Harry. The *REGIME* is indeed coming. We must prepare. I will be conducting a ceremony tonight. I would love for you to join in on it.",
+			"NextNodeId": "Node1"
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "*+1 RECRUIT, FRIENDLY",
+			"NextNodeId": ""
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "Blesssings of *CULT NAME* upon you young Henry. The *REGIME* is indeed coming. We must must prepare. I will be conducting a ceremony tonight. I would love for you to join in on it.",
+			"NextNodeId": "Node2"
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "UNRECRUITED, ANGERED",
+			"NextNodeId": ""
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "y",
+			"NextNodeId": ""
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "Young man, I feel like you take this very flippantly. I need you to show up at the *CHURCH* after sundown. Be there!",
+			"NextNodeId": "Node3"
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "+1 RECRUIT, ANGERED",
+			"NextNodeId": ""
+		}
+	]
+}
