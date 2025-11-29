@@ -10,7 +10,7 @@
         {
             "NodeId": "GOODBYE",
             "NPCDialogue": "Goodbye you ingrate, uncultured SWINE!",
-            "OutgoingEdgeIds": ["ByeBye"]
+            "OutgoingEdgeIds": [""]
         },
         {
             "NodeId": "INITIATION",
