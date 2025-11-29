@@ -568,7 +568,8 @@
 		{
 			"EdgeId": "Edge55",
 			"PlayerDialogue": "**draw your sword, and run him through the neck**",
-			"NextNodeId": "Node36"
+			"NextNodeId": "Node36",
+			"bIsVillagerKilled": true
 		},
 		{
 			"EdgeId": "Edge56",
