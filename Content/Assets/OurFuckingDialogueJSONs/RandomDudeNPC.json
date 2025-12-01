@@ -10,15 +10,14 @@
 		{
 			"NodeId": "Node1",
 			"NPCDialogue": "Good! I think I can trust you. Nobody else in town.",
-			"OutgoingEdgeIds": ["Edge1"],
-			"bHaveDoubts": true
+			"OutgoingEdgeIds": ["Edge1"]
 		},
 		{
 			"NodeId": "Node3",
 			"NPCDialogue": "Just as I thought! Just as I thought!",
 			"OutgoingEdgeIds": ["Edge5"],
-			"bJoinedTheEffort": false,
-			"bVillagerAngered": true
+			"bIsConvinced": false,
+			"bIsAngered": true
 		},
 		{
 			"NodeId": "START",
@@ -42,14 +41,14 @@
 			"EdgeId": "Edge2",
 			"PlayerDialogue": "That's rough, buddy.",
 			"NextNodeId": "",
-			"bJoinedTheEffort": true,
+			"bIsConvinced": true,
 			"bFinishedDialogue": true
 		},
 		{
 			"EdgeId": "Edge3",
 			"PlayerDialogue": "Oof.",
 			"NextNodeId": "",
-			"bJoinedTheEffort": false,
+			"bIsConvinced": false,
 			"bFinishedDialogue": true
 		},
 		{
