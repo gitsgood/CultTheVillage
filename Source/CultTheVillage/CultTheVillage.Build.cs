@@ -4,15 +4,15 @@ using UnrealBuildTool;
 
 public class CultTheVillage : ModuleRules
 {
-	public CultTheVillage(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(new string[] { 
-            "Core", 
-            "CoreUObject", 
-            "Engine", 
-            "InputCore", 
+    public CultTheVillage(ReadOnlyTargetRules Target) : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "Core",
+            "CoreUObject",
+            "Engine",
+            "InputCore",
             "EnhancedInput",
             "AIModule",
             "NavigationSystem",
@@ -22,12 +22,16 @@ public class CultTheVillage : ModuleRules
             "UMG",
             "Slate",
             "Json",
-            "JsonUtilities"
+            "JsonUtilities",
+            "Slate",
+            "SlateCore"
         });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {
+        PrivateDependencyModuleNames.AddRange(new string[] {
             "Json",
-            "JsonUtilities"
+            "JsonUtilities",
+            "Slate",
+            "SlateCore"
         });
 
         PublicIncludePaths.AddRange(new string[] {
