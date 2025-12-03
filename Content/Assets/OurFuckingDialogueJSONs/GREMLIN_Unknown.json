@@ -1,0 +1,54 @@
+{
+	"NPCId": "GREMLIN_Unknown",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "(something grips your mind... an overlwhelming and foreign presence, yet... somehow, soothing?)",
+			"OutgoingEdgeIds": ["Edge0", "Edge1"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "(the presence maps out meaning from your flesh, you now Feel it... satiation?)",
+			"OutgoingEdgeIds": ["Edge2"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "(*open your mind, let it in*)",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "(*They wish to feed us, They wish to Show us. open the gates to your soul for Them*)",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "(*a seering bliss overwhelms you, you pass out*)",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}
