@@ -1,0 +1,27 @@
+{
+	"NPCId": "HeWhoCantBeNamed",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "?a??? ???se?, t? æe???? s??æa æa? a????e?, ????? es??a.",
+			"OutgoingEdgeIds": ["Edge0"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "(???? !!! I... wh..????)",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"NPCId": "01Altar",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "(I have no time to ponder, I saw it, the army is coming...)",
+			"OutgoingEdgeIds": ["Edge0", "Edge1", "Edge2"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "(... What good does it do for me to lament my fate here? No one can hear me. I will die for my sins, a pile of flesh that never saw beyond the stars...)",
+			"OutgoingEdgeIds": ["Edge3"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "(Yes... they are coming, but I am faithful, the King is coming too. I will guide us unto them.)",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "(Damn it! We just had to fucking live in this hellhole! Fuck this country! Fuck FUCK FUCK)",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "(I WILL die, but perhaps the rest of the flock needn't follow. Mayhaps after death I might see the unseen, at last...)",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "(Let's be real, I haven't seen the Sign in years. In front of an army, does my worship even mean anything?)",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}
