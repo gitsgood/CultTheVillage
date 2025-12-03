@@ -1,0 +1,234 @@
+{
+	"NPCId": "BrotherCaleb",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Blessings of the Gate be upon you, Hallowed One. Is there anything you require?",
+			"OutgoingEdgeIds": ["Edge0"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "Indeed, Hallowed One. They say the army will be here by sundown. People talk of mobilising everyone capable of wielding a weapon. However, we both know the village stands no chance against the might of the Hegemony.",
+			"OutgoingEdgeIds": ["Edge1", "Edge2"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "We are doing everything in our power without so much as a minute of rest. However... It may not be enough. It is the people, Hallowed One. They doubt.",
+			"OutgoingEdgeIds": ["Edge3", "Edge4"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "I shall pray to the Gate and the Key for your success, Hallowed One. Thank you.",
+			"OutgoingEdgeIds": ["Edge5"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node4",
+			"NPCDialogue": "Talk to the people. Hear their concerns and offer words of comfort. Convince them to join the ritual, for all our sakes.",
+			"OutgoingEdgeIds": ["Edge6"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node5",
+			"NPCDialogue": "May the Gate and the Key guide your path.",
+			"OutgoingEdgeIds": ["Edge7"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node6",
+			"NPCDialogue": "Step carefully, Hallowed One. A strong hand can give rise to defiance as well as it can discipline. More than ever, we need the people's trust. We have never been so vulnerable.",
+			"OutgoingEdgeIds": ["Edge8", "Edge9"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node7",
+			"NPCDialogue": "That is all I ask, Hallowed One.",
+			"OutgoingEdgeIds": ["Edge10"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node9",
+			"NPCDialogue": "I beg your forgiveness, Hallowed One, as well as your mercy. I shall not speak of this matter again.",
+			"OutgoingEdgeIds": ["Edge12", "Edge13"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node12",
+			"NPCDialogue": "Do not lose heart, Hallowed One, especially not in the moment as crucial as this. The others need you to shepherd them to the land promised to us.",
+			"OutgoingEdgeIds": ["Edge16"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "So... This day has finally come.",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "How go the preparations?",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "Then we must unite them before it is too late.",
+			"NextNodeId": "Node3",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "*Continue*",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "I shall do so. Pray continue your preparations in the meantime. By sundown, we will all ascend.",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge7",
+			"PlayerDialogue": "*Leave*",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "Doubting the one true God? The promise of the land of our own? I shall deal with these heretics accordingly.",
+			"NextNodeId": "Node6",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge8",
+			"PlayerDialogue": "I shall consider your words, Brother Caleb.",
+			"NextNodeId": "Node7",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge10",
+			"PlayerDialogue": "*Continue*",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge9",
+			"PlayerDialogue": "Who are you to doubt me? One more word, and I will feed your tongue to the dogs.",
+			"NextNodeId": "Node9",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge12",
+			"PlayerDialogue": "I forgive you, Brother Caleb. Go forth and prepare. Before sundown, our village will embrace the one true faith.",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge14",
+			"PlayerDialogue": "1",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge13",
+			"PlayerDialogue": "The preparations must be complete before my return. Get to it. I shall deal with the rabble.",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "The army is almost upon us, and the ritual is far from complete. I do not know if we stand a chance, Brother Caleb.",
+			"NextNodeId": "Node12",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge16",
+			"PlayerDialogue": "*Continue*",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}

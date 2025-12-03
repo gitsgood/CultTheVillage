@@ -1,0 +1,324 @@
+{
+	"NPCId": "04AnnaMaeBarbourin",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Oh, it's you Good Shepherd. What a stupid name. What do you want?",
+			"OutgoingEdgeIds": ["Edge0", "Edge1"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "I don't need hope, you creepy fuck. I need to see the rotten scum of Hegemony to bleed.",
+			"OutgoingEdgeIds": ["Edge2", "Edge3"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "Keep it. I have nothing but vengeance left for me",
+			"OutgoingEdgeIds": ["Edge4"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "I don't seek to rebuild. I have no reason to do so. Begone, your words spoil my milk.",
+			"OutgoingEdgeIds": ["Edge5"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node4",
+			"NPCDialogue": "Y-you don't get to speak to me that way!",
+			"OutgoingEdgeIds": ["Edge6"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node5",
+			"NPCDialogue": "THEN THEY SHOULDN'T HAVE GOTTEN THEMSELVES KILLED!!!",
+			"OutgoingEdgeIds": ["Edge7", "Edge8"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node6",
+			"NPCDialogue": "GO TO HELL! I HATE YOU! I HATE THIS VILLAGE! I HATE EVERYTHING!",
+			"OutgoingEdgeIds": ["Edge9"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": true
+		},
+		{
+			"NodeId": "Node7",
+			"NPCDialogue": "H-Hastur, the King in Yellow. I... is that what the God of Shepherds was this whole time? I... Yes. I will be there. I will do what must be done.",
+			"OutgoingEdgeIds": ["Edge10"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node8",
+			"NPCDialogue": "Good.",
+			"OutgoingEdgeIds": ["Edge11"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node9",
+			"NPCDialogue": "And why should I care that you want my help?!",
+			"OutgoingEdgeIds": ["Edge12", "Edge13"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node10",
+			"NPCDialogue": "...go on...",
+			"OutgoingEdgeIds": ["Edge14"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node11",
+			"NPCDialogue": "I will be there, but only if you swear to me that they will suffer as a result of this ceremony.",
+			"OutgoingEdgeIds": ["Edge15"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node12",
+			"NPCDialogue": "Hurting Hegemony? You think I'm that naive? Or stupid? They cannot be hurt! They are the one who do the hurting!",
+			"OutgoingEdgeIds": ["Edge16", "Edge17"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node13",
+			"NPCDialogue": "HASTUR?! The King in Yellow? You... you are its prophet aren't you? The God of Shepherds is just a cover for it... I will be there hallowed one. I swear it.",
+			"OutgoingEdgeIds": ["Edge18"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node14",
+			"NPCDialogue": "Your promises bore me Good Shepherd. Leave me. Go. LEAVE! I have no desire to help you or this damned village!",
+			"OutgoingEdgeIds": ["Edge19"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "I understand you're hurt child. I came to offer you words of hope.",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "Girl, you cannot let the hunger for vengeance to consume you! I come to offer a way out that doesn't involve getting your hands dirty.",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "Nonsense. Even with all the misery in the world, as long as we live we can rebuild. Same goes for you.",
+			"NextNodeId": "Node3",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "Anna Mea, please...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "I see. Vengeance has consumed you whole. Is that truly all you wish to be? Martyr for the dead?",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "Don't I? I knew your brothers, your father and your mother before they got taken by the Hegemony. They would want more for you Anna Mae.",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge7",
+			"PlayerDialogue": "They did not want to leave you child. What happened to them is not your fault, nor theirs. It is simply the way of the Hegemony. That's why we need to fight it. Join my ceremony tonight!",
+			"NextNodeId": "Node6",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge9",
+			"PlayerDialogue": "NO! ANNA MAE!",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": true
+		},
+		{
+			"EdgeId": "Edge8",
+			"PlayerDialogue": "They are gone, but you are not. I have a ceremony tonight. I shall contact Hastur, the King in Yellow to deliver us from Hegemony. Its might shall deliver us to the world beyond Hegemony's reach.",
+			"NextNodeId": "Node7",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge10",
+			"PlayerDialogue": "You shall have your vengeance, Anna Mae.",
+			"NextNodeId": "Node8",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge11",
+			"PlayerDialogue": "Be prepared for what will come, child. Hastur will deliver us.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "I know you did not wish to see me, or anyone, but I seek your help.",
+			"NextNodeId": "Node9",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge12",
+			"PlayerDialogue": "Because it is an opportunity to strike back at the Hegemony that hurt you so.",
+			"NextNodeId": "Node10",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge14",
+			"PlayerDialogue": "I am planning a ceremony tonight, one that will deliver us village from the clutches of those rancid tyrants.",
+			"NextNodeId": "Node11",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge15",
+			"PlayerDialogue": "They will, child. I swear it.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge13",
+			"PlayerDialogue": "I don't need you to care. I invite you for it will hurt the Hegemony and deliver us from them.",
+			"NextNodeId": "Node12",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge16",
+			"PlayerDialogue": "uch a narrow minded view. Expand your mind child. We will contact the Great Hastur. Its power shall shatter our tyrants and deliver us to world beyond their reach.",
+			"NextNodeId": "Node13",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge18",
+			"PlayerDialogue": "I am glad you agree. See you after sundown.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge17",
+			"PlayerDialogue": "The God of Shepherds will bring us tranquility, peace and deliver us from the clutches of marauding swine of Hegemony. All you need to do is show up tonight.",
+			"NextNodeId": "Node14",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge19",
+			"PlayerDialogue": "...stubborn little...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}

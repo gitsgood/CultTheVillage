@@ -1,0 +1,585 @@
+{
+	"NPCId": "03JohanGarfield",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Ah, there you are. Lord above, have you heard the news? Hegemony is finally on the way. They might arrive as soon as this very evening.",
+			"OutgoingEdgeIds": ["Edge0", "Edge1", "Edge2"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "I hear you, hallowed one, but how in hell do you plan on delivering us from the Hegemony? They are not a spiritual disease, but a very corporeal danger!",
+			"OutgoingEdgeIds": ["Edge3", "Edge4"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "ESOTERIC?! Have you lost your mind?! You think rituals and chanting to half forgotten deities will save us?!",
+			"OutgoingEdgeIds": ["Edge5", "Edge6"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "You degenerate ingrate. After all I did to welcome you into our community, to position you as our spiritual leader and THIS is how you repay me? REPAY US?! May the deepest pits of hell swallow you whole!",
+			"OutgoingEdgeIds": ["Edge7"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node4",
+			"NPCDialogue": "And you promise, SWEAR, that these powers you speak of can help us? In tangible ways, not just spiritual?",
+			"OutgoingEdgeIds": ["Edge8", "Edge9"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node5",
+			"NPCDialogue": "I should trust your words, but I cannot. I simply cannot bring myself to do it. I shall visit you in the evening to observe. That's all I promise.",
+			"OutgoingEdgeIds": ["Edge10"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node6",
+			"NPCDialogue": "At least you do not butter me up with empty promises of lands of plenty... I shall trust you, as I have precious few options left to me. I shall be there, hallowed one.",
+			"OutgoingEdgeIds": ["Edge11"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node7",
+			"NPCDialogue": "ESOTERIC?! Have you lost your mind?! You think rituals and chanting to half forgotten deities will save us?!",
+			"OutgoingEdgeIds": ["Edge12", "Edge13"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node8",
+			"NPCDialogue": "Very well. We have nothing else. No armies, no defenses, and no time to flee on our own feet. Not anywhere were it would matter. I will be there, and I will bring who you need.",
+			"OutgoingEdgeIds": ["Edge14"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node9",
+			"NPCDialogue": "My trust was misplaced. You have succumbed to madness. Have your ceremony. While you and your lunatics chant around the pyre, I shall be busy trying to save us all!",
+			"OutgoingEdgeIds": ["Edge15"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node10",
+			"NPCDialogue": "Praying is going to deliver us padre? Really? That's the best you can offer after all the promises?",
+			"OutgoingEdgeIds": ["Edge16", "Edge17"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node11",
+			"NPCDialogue": "...you revolting snake. Is this what I get in return for letting you preach your poisonous truths? Veiled threats?",
+			"OutgoingEdgeIds": ["Edge18"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node12",
+			"NPCDialogue": "You are a serpent in our fold that I willingly, if unknowingly allowed to attach itself to our breast. After this is all over, you and I shall have words, but until then I shall trust you.",
+			"OutgoingEdgeIds": ["Edge19"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node13",
+			"NPCDialogue": "You... you did not. But his is different! This is real!",
+			"OutgoingEdgeIds": ["Edge20"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node14",
+			"NPCDialogue": "I shall place my trust in you, hallowed one. Not like I have many options available to me.",
+			"OutgoingEdgeIds": [ "Edge21" ],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node15",
+			"NPCDialogue": "Oh spare me the empty platitudes, I am not one of malleable sheep in your flock. I need actual solutions!",
+			"OutgoingEdgeIds": ["Edge22", "Edge23"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node16",
+			"NPCDialogue": "Besides the obvious nonsense you speak, are we to exchange tyranny of Hegemony to tyranny of your god?!",
+			"OutgoingEdgeIds": ["Edge24", "Edge25"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node17",
+			"NPCDialogue": "More esoteric mumbo-jumbo from the head of our spiritual needs. Prayer shall not help and I was a fool to think you could either. Begone.",
+			"OutgoingEdgeIds": ["Edge26"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node18",
+			"NPCDialogue": "And you cannot give me any specifics? None at all? No guarantees, no details? Nothing?",
+			"OutgoingEdgeIds": ["Edge27", "Edge28"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node19",
+			"NPCDialogue": "Not much to go on, but I have precious little else to latch on to. Very well, I'll be there.",
+			"OutgoingEdgeIds": ["Edge29"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node20",
+			"NPCDialogue": "You... you lost your mind! HASTUR?! THE KING IN YELLOW?! No! NO! I shall not be part of such a degenerate rite to appease your blasphemous deity!",
+			"OutgoingEdgeIds": ["Edge30"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node21",
+			"NPCDialogue": "Prostrate? PROSTRATE?! Lord give me strength to not strike you. How can you demand that of us, when our lives are at balance?!",
+			"OutgoingEdgeIds": ["Edge31", "Edge32"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node22",
+			"NPCDialogue": "GET. OUT.",
+			"OutgoingEdgeIds": ["Edge33"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node23",
+			"NPCDialogue": "I... very well. But tell me, honestly, like a friend, what does it entail. What awaits us if this ceremony of yours succeeds?",
+			"OutgoingEdgeIds": ["Edge34", "Edge35"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node24",
+			"NPCDialogue": "I don't like this, not one bit. But if you truly believe this is our only path... then lead us. I will be there.",
+			"OutgoingEdgeIds": ["Edge36"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node25",
+			"NPCDialogue": "You lied! God of Shepherds, what a terrible mask! You would gamble our lives and very souls on such a grotesque effigy of rotten devotion?! You have lost your mind!",
+			"OutgoingEdgeIds": ["Edge37"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "I have heard, mayor. I have a plan, but it involves an evening ceremony. I shall need your participation, and that of your aides.",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "I cannot divulge the specifics of the ceremony. I know how it sounds mayor, but my plan involves... esoteric means of protection. I ask only that you trust me.",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "Oh stop your skeptical ramblings. I know that you have witnessed that my faith, the powers I commune with, are not just empty words on pages of old books.",
+			"NextNodeId": "Node3",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge7",
+			"PlayerDialogue": "...short sighted fool...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "Against the Hegemony, this world yields no strength we can claim. We have no choice but to look to the forces that govern the unseen.",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge8",
+			"PlayerDialogue": "I promise you this: our bodies shall be saved, and our spirits protected. Our community will survive. Changed, yes, but living! And unbound to chart its future course.",
+			"NextNodeId": "Node5",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge10",
+			"PlayerDialogue": "We will be delivered Johan, you shall see.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge9",
+			"PlayerDialogue": "The God of Shepherds will carry our bodies, minds and souls, our very HOMES away from this accursed land and into his kingdom beyond. I know now what awaits us there, but it will be free of Hegemony.",
+			"NextNodeId": "Node6",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge11",
+			"PlayerDialogue": "May the guidance of Shepherd light your path, Johan.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "It's not as simple as saying that something specific will happen. I plan on beseeching the God of Shepherds to deliver us. I will be frank, I am unsure how exactly our deliverance shall look like. All I can guarantee is that we will be saved.",
+			"NextNodeId": "Node7",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge12",
+			"PlayerDialogue": "Calm yourself, Mayor. While the act is spiritual, the result will be wholly corporeal. We have no earthly chariots, so we must ask for the divine ones.",
+			"NextNodeId": "Node8",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge14",
+			"PlayerDialogue": "Have faith. If not the God of mine, then at least me.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge13",
+			"PlayerDialogue": "Do not let fear cloud your vision. All I ask is for the trust I showed you back. Have faith in the path I have set.",
+			"NextNodeId": "Node9",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge15",
+			"PlayerDialogue": "...I see.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "Have faith mayor. Ceremony that we shall conduct tonight will provide us with all the tools we need to defend ourselves.",
+			"NextNodeId": "Node10",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge16",
+			"PlayerDialogue": "Skepticism is unbecoming of you mayor. I did assist you after the priest died, to keep this village calm and peaceful, despite everything. I just want the trust I have given you to be returned.",
+			"NextNodeId": "Node11",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge18",
+			"PlayerDialogue": "I do not make threats, veiled or otherwise. I did not speak such to threaten you, merely to point out that I do have a plan that will work. You might not believe me, but it WILL work. All I need is your trust and participation at the ceremony tonight.",
+			"NextNodeId": "Node12",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge19",
+			"PlayerDialogue": "Just be there, Johan.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge17",
+			"PlayerDialogue": "Your skepticism is understandable, if unwarranted. Have I failed you yet mayor? Have I shown you anything but results despite my unorthodox methods?",
+			"NextNodeId": "Node13",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge20",
+			"PlayerDialogue": "It is all real mayor. It will be hard to believe your eyes, mayor. The ceremony shall be... spectacular. Trust me.",
+			"NextNodeId": "Node14",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge21",
+			"PlayerDialogue": "See you tonight, Johan.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "The God of Shepherds will deliver us. I swear it on my life as a spiritual leader of our community.",
+			"NextNodeId": "Node15",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge22",
+			"PlayerDialogue": "What you call empty platitudes are forces that are beyond our ken. They shall deliver us, but only if we beseech them in supplication and meekness they demand.",
+			"NextNodeId": "Node16",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge24",
+			"PlayerDialogue": "My God is no tyrant. God of Shepherds is freedom and liberation incarnate. We shall be free, from Hegemony and everything else that seeks to put us in chains.",
+			"NextNodeId": "Node17",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge26",
+			"PlayerDialogue": "Stubborn fool.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge25",
+			"PlayerDialogue": "No, nothing of the sort. Rite we shall undertake during the ceremony will be not performed to bind us, but to liberate us.",
+			"NextNodeId": "Node18",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge27",
+			"PlayerDialogue": "Rite will be simple. We shall invoke names of our God, which will be sufficient to get his grace and protection. But after, I cannot say for I know not.",
+			"NextNodeId": "Node19",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge29",
+			"PlayerDialogue": "See you at the ceremony.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge28",
+			"PlayerDialogue": "Great Hastur, the King in Yellow shall pluck us from this mortal coil and bring us to the land beyond, where we will be free to forge our own path.",
+			"NextNodeId": "Node20",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge30",
+			"PlayerDialogue": "Johan! Wait!",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge23",
+			"PlayerDialogue": "Do not besmirch the good word of our Lord by your unwarranted skepticism. World beyond our senses is real and it can help us, if only we prostrate ourselves before it.",
+			"NextNodeId": "Node21",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge31",
+			"PlayerDialogue": "Calm yourself mayor. Your outrage betrays panic and shortsightedness of your own limited vision. I know what I talk of, all you need to do is trust me.",
+			"NextNodeId": "Node22",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge33",
+			"PlayerDialogue": "No... wait!",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge32",
+			"PlayerDialogue": "Calm yourself friend. Your mind conjures images of Hegemony's officers demanding we speak their soul-crushing mantras. That is not what I speak of.",
+			"NextNodeId": "Node23",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge34",
+			"PlayerDialogue": "Nothing vile, if that's what bothers you. Ritual is both bloodless and without any ignominy. Details will be revealed during the ceremony. Afterwards... I know not.",
+			"NextNodeId": "Node24",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge36",
+			"PlayerDialogue": "Trust the Good Shepherd, Johan.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge35",
+			"PlayerDialogue": "We shall stand in circle and invoke names of our god, Hastur, the King in Yellow. You know him as God of Shepherds. He will carry us in his hands to the lands beyond.",
+			"NextNodeId": "Node25",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge37",
+			"PlayerDialogue": "...blast it, Johan...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		}
+	]
+}

@@ -1,0 +1,603 @@
+{
+	"NPCId": "02IrmaValdemar",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Oh-hello there, uh... I wasn't expecting to see you so early, but it's good to see a friendly face.",
+			"OutgoingEdgeIds": ["Edge0", "Edge1", "Edge2"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "Oh! My youngest finally took his first steps, wobbly and wild, but he walked right into my arms, and I thought my heart would burst.",
+			"OutgoingEdgeIds": ["Edge3", "Edge4"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "Oh-of course, I'm sorry, I didn't mean to ramble. I must go now.",
+			"OutgoingEdgeIds": ["Edge5"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "And my middle girl, bless her, she's been helping me on the farm every morning. You should've seen her hauling those water pails like she was twice her size!",
+			"OutgoingEdgeIds": ["Edge6", "Edge7"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node4",
+			"NPCDialogue": "Oh-of course, I'm sorry, I didn't mean to ramble. I must go now.",
+			"OutgoingEdgeIds": ["Edge8"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node5",
+			"NPCDialogue": "And my eldest, well, she's gone and fallen head over heels for that young man who helps the good mayor; she blushes every time I mention his name!",
+			"OutgoingEdgeIds": ["Edge9", "Edge10"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node6",
+			"NPCDialogue": "Oh-of course, I'm sorry, I didn't mean to ramble. I must go now.",
+			"OutgoingEdgeIds": ["Edge11"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node7",
+			"NPCDialogue": "Ah-there I go again, talking your ear off... It's just about tonight's ceremony, I was wondering if there's... something we should be preparing for?",
+			"OutgoingEdgeIds": ["Edge12", "Edge13", "Edge14"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node8",
+			"NPCDialogue": "I... see. I suppose. It just sounds so unclear, and with everything going on, it's hard not to worry.",
+			"OutgoingEdgeIds": ["Edge15", "Edge16"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node9",
+			"NPCDialogue": "Right-yes, of course. I should get back to the children, forgive me, I'll... I'll see you tonight.",
+			"OutgoingEdgeIds": ["Edge17"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node10",
+			"NPCDialogue": "If... if it's truly for them, then yes. I understand, and I'll be there.",
+			"OutgoingEdgeIds": ["Edge18"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node11",
+			"NPCDialogue": "I... I-no, I... I have to go-excuse me!",
+			"OutgoingEdgeIds": ["Edge19"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node12",
+			"NPCDialogue": "Of course, Good Shepherd. But, how does one ceremony help us against the Hegemony?",
+			"OutgoingEdgeIds": ["Edge20", "Edge21"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node13",
+			"NPCDialogue": "H... Hastur. You are priest of dreaded HASTUR! No... NO! NOOOO!",
+			"OutgoingEdgeIds": ["Edge22"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node14",
+			"NPCDialogue": "Oh... I... see. thank you... truly. I'll do as you say, and... I'm grateful for your guidance.",
+			"OutgoingEdgeIds": ["Edge23"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node15",
+			"NPCDialogue": "Ah... of course. I'll try my best... but, um, what is it for exactly?",
+			"OutgoingEdgeIds": ["Edge24"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node16",
+			"NPCDialogue": "Right... yes, of course...",
+			"OutgoingEdgeIds": ["Edge25"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node17",
+			"NPCDialogue": "I... I haven't forgotten. It's just... between the farm and the children, three of them to care for, I barely have time to breathe.",
+			"OutgoingEdgeIds": ["Edge26", "Edge27", "Edge28"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node18",
+			"NPCDialogue": "All right, I'll come, I promise. Tell me, what will we be asked to do?",
+			"OutgoingEdgeIds": ["Edge29", "Edge30"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node19",
+			"NPCDialogue": "Tend what keeps us whole? What does that mean? Will we sing, bring things, stand a watch?",
+			"OutgoingEdgeIds": ["Edge31", "Edge32", "Edge33"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node20",
+			"NPCDialogue": "W-what? No-absolutely not, I have children to think of, I... I'm sorry, I must go!",
+			"OutgoingEdgeIds": ["Edge34"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node21",
+			"NPCDialogue": "Very well. I'll be there and do as I'm told.",
+			"OutgoingEdgeIds": ["Edge35"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node22",
+			"NPCDialogue": "I'm sorry, truly, but I have three mouths to feed, a fevered calf and the fields that will not wait. I cannot leave them on some promise I don't understand, so forgive me, but I won't be coming.",
+			"OutgoingEdgeIds": ["Edge36"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node23",
+			"NPCDialogue": "Oh-right. I'm sorry, I must be off, the children need me.",
+			"OutgoingEdgeIds": ["Edge37"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node24",
+			"NPCDialogue": "Heartless! You don't care about me or my children. You care only for your ceremony. I won't be part of this, not for you!",
+			"OutgoingEdgeIds": ["Edge38"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node25",
+			"NPCDialogue": "You callous, blunt bastard. You're no better than the sadistic brutes of Hegemony.",
+			"OutgoingEdgeIds": ["Edge39"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "Peace upon your weary heart, Irma. Tell me, how are your three little ones faring in these troubled days?",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "Yes, yes, that's... charming, Irma, but don't forget the evening ceremony. Your presence is required, for the good of all.",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "See you this evening Irma.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "...",
+			"NextNodeId": "Node3",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "Yes, yes, that's... charming, Irma, but don't forget the evening ceremony. Your presence is required, for the good of all.",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge8",
+			"PlayerDialogue": "See you this evening Irma.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge7",
+			"PlayerDialogue": "...",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge9",
+			"PlayerDialogue": "Yes, yes, that's... charming, Irma, but don't forget the evening ceremony. Your presence is required, for the good of all.",
+			"NextNodeId": "Node6",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge11",
+			"PlayerDialogue": "See you at the ceremony Irma.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge10",
+			"PlayerDialogue": "...",
+			"NextNodeId": "Node7",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge12",
+			"PlayerDialogue": "Only a gentle gathering of spirit and soil, Irma - an old rhythm the village has simply forgotten. You'll see its purpose more clearly once you stand within it.",
+			"NextNodeId": "Node8",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge15",
+			"PlayerDialogue": "Trust in the path we've been given, my teachings would never lead this village astray.",
+			"NextNodeId": "Node9",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge17",
+			"PlayerDialogue": "I shall see you at the ceremony Irma.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge16",
+			"PlayerDialogue": "Think only of your children, Irma. This is done so they may grow in safety, and I would never guide their mother towards any harm.",
+			"NextNodeId": "Node10",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge18",
+			"PlayerDialogue": "See you at the ceremony Irma.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge13",
+			"PlayerDialogue": "We shall gather in the glory of Him above. The one who guides our lives as wise shepherd. It is by His grace that we live and breathe.",
+			"NextNodeId": "Node11",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge19",
+			"PlayerDialogue": "...by the Yellow Sign, me and my big mouth...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge14",
+			"PlayerDialogue": "Nothing but what is good, Irma - watch, listen, and be present; that is all one must do.",
+			"NextNodeId": "Node12",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge20",
+			"PlayerDialogue": "Trust in might of the King in Yellow, our lord and shepherd. I speak for That in the radiant yellow. It will deliver us.",
+			"NextNodeId": "Node13",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge22",
+			"PlayerDialogue": "...damnation, I should have guessed not to name It directly...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge21",
+			"PlayerDialogue": "Trust in might of the God of Shepherds, our lord and savior. I speak for Him that shields us from harm. He will deliver us.",
+			"NextNodeId": "Node14",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge23",
+			"PlayerDialogue": "Be at peace Irma, we shall endure.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "Good to see you too, Irma. Remember, you must be at the evening ceremony.",
+			"NextNodeId": "Node15",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge24",
+			"PlayerDialogue": "It concerns us all, Irma, though not all may yet understand why. Just be there, your presence is required.",
+			"NextNodeId": "Node16",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge25",
+			"PlayerDialogue": "I shall not keep you any longer.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "Good morning, Irma. You've missed more than one Sunday gathering lately... is everything so busy you've forgotten the duties owed?",
+			"NextNodeId": "Node17",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge26",
+			"PlayerDialogue": "I know your burdens, and I don't blame you. Come tonight, for their sake as much as yours.",
+			"NextNodeId": "Node18",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge29",
+			"PlayerDialogue": "We tend what keeps the village whole; it's small work with a wide purpose.",
+			"NextNodeId": "Node19",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge31",
+			"PlayerDialogue": "We stand at dusk, speak the near thousand true names of Hastur, let the divine touch the edges of us. There will be no blood, only the shudder and the seeing, and then whatever it frees.",
+			"NextNodeId": "Node20",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge34",
+			"PlayerDialogue": "...blast it all, and their small minded worries.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge32",
+			"PlayerDialogue": "Nothing complicated: come at dusk, stand where directed, keep your voice low. The rest you'll learn there.",
+			"NextNodeId": "Node21",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge35",
+			"PlayerDialogue": "May He watch over you Irma. Be well.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge33",
+			"PlayerDialogue": "I cannot unravel it for you, Irma. Some threads of the rite fray the moment they're named, and what keeps the village together must be left wrapped. Trust that your presence, nothing more, is what is asked tonight.",
+			"NextNodeId": "Node22",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge36",
+			"PlayerDialogue": "I understand, but please reconsider.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge30",
+			"PlayerDialogue": "That's none of your business, Irma. Come at dusk and do as you're told.",
+			"NextNodeId": "Node23",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge37",
+			"PlayerDialogue": "...stubborn, simple minded cow...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge27",
+			"PlayerDialogue": "I understand your burdens, Irma, but even the smallest hands must play their part, no one is excused, and your absence will endanger us all.",
+			"NextNodeId": "Node24",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge38",
+			"PlayerDialogue": "Wait. Hold on... damnation...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge28",
+			"PlayerDialogue": "Breath won't save the village, Irma. Come at dusk. Refuse and you leave us all to the Hegemony.",
+			"NextNodeId": "Node25",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge39",
+			"PlayerDialogue": "...ungrateful little wench. Can't she... oh well.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}

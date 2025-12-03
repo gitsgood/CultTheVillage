@@ -1,0 +1,567 @@
+{
+	"NPCId": "04LoganJohnPressburg",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Ah... it's you. The scum that replaced father Glorian. What do you want?",
+			"OutgoingEdgeIds": ["Edge0", "Edge1", "Edge2", "Edge3"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "Wisest, aye, to shepherd us right into tartarus. I bet your poisoned lies will be of great comfort, once you hand our souls to devil himself.",
+			"OutgoingEdgeIds": ["Edge4", "Edge5", "Edge6"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "Yes, yes. You said so many times, yet all I ever see you do is talk about ravines in darkness and eyes that watch us from beyond and some such nonsense.",
+			"OutgoingEdgeIds": ["Edge7", "Edge8", "Edge9"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "Fuck off! Don't you DARE suggest that your empty heathenism is in any way comparable to the good book!",
+			"OutgoingEdgeIds": ["Edge10"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node4",
+			"NPCDialogue": "Poppycock... besides I did listen. It sounds like writhing of maggots to my ears, promising rot and decay of all that's good and holy.",
+			"OutgoingEdgeIds": ["Edge11", "Edge12"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node5",
+			"NPCDialogue": "I'll pass on that offer. It smells like wrong end of the pig. But you lunatics have fun, howling at the moon around the pyre.",
+			"OutgoingEdgeIds": ["Edge13"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node6",
+			"NPCDialogue": "Pull that tongue out of my ass crack. I said I won't join you lunatics, no matter what honeyed gobshite you spew.",
+			"OutgoingEdgeIds": ["Edge14"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node7",
+			"NPCDialogue": "I... I suppose. If you put it that way I guess it sounds less ominous. You're still a rotten bastard, through.",
+			"OutgoingEdgeIds": ["Edge15", "Edge16"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node8",
+			"NPCDialogue": "FINE, you stubborn bastard. Now leave me be! Your incessant chattering is making my head hurt.",
+			"OutgoingEdgeIds": ["Edge17"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node9",
+			"NPCDialogue": "You know what, I shall! I will come and watch as that smug look on your slimy face blows up on you and your sad lies come crashing down on your head like torrent of rancid shit!",
+			"OutgoingEdgeIds": ["Edge18"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node10",
+			"NPCDialogue": "To do what? Condemn my immortal soul to hell? To ravage my body and scar my mind? Sod off you rotten scumbag. I never want to see you again.",
+			"OutgoingEdgeIds": ["Edge19"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node11",
+			"NPCDialogue": "You fucking smartass. What if I simply hate myself as well, huh?",
+			"OutgoingEdgeIds": ["Edge20"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node12",
+			"NPCDialogue": "Just call me a hypocrite, why don't you!",
+			"OutgoingEdgeIds": ["Edge21", "Edge22"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node13",
+			"NPCDialogue": "So you say, oh HALLOWED ONE, but I don't trust your two faced nature one bit. Your poisonous truths lead to damnation! Begone!",
+			"OutgoingEdgeIds": ["Edge23"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node14",
+			"NPCDialogue": "It's not blind, you are clearly and openly a heathen. A cultist of some perverted deity I want nothing to do with. Scram!",
+			"OutgoingEdgeIds": ["Edge24"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node15",
+			"NPCDialogue": "What a bunch of bollocks.",
+			"OutgoingEdgeIds": ["Edge25", "Edge26"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node16",
+			"NPCDialogue": "Sod off, you sleazy wet prick. I smell the dishonesty and rot on you. It clings to you like old cow shit.",
+			"OutgoingEdgeIds": ["Edge27"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node17",
+			"NPCDialogue": "No pit in hell is deep enough, nor is any flame of damnation hot enough to take one such as you. May your cock rot and fall off, you scum!",
+			"OutgoingEdgeIds": ["Edge28"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node18",
+			"NPCDialogue": "Oh that's rich, coming from slimy bitch boy like you. What kind of name is Good Shepherd anyway?",
+			"OutgoingEdgeIds": ["Edge29", "Edge30"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node19",
+			"NPCDialogue": "I will kick your ass and save Hegemony the trouble of weeding out the counter-revolutionary deviant like you. *SWINGS A HAMMER AT YOU.*",
+			"OutgoingEdgeIds": ["Edge31"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": true
+		},
+		{
+			"NodeId": "Node20",
+			"NPCDialogue": "Open mind is like a fortress with its gates unbarred and unguarded. I won't let you fill my head with your blasphemies. Fuck off.",
+			"OutgoingEdgeIds": ["Edge32"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node21",
+			"NPCDialogue": "I'd call you delusional as well as charlatan.",
+			"OutgoingEdgeIds": ["Edge33"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node22",
+			"NPCDialogue": "You silver tongued devil. Fucking kiss-ass... FINE, I will show up to see how you morons make fools of yourselves.",
+			"OutgoingEdgeIds": ["Edge34"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node23",
+			"NPCDialogue": "Watch what you say you milksop fucker. I might be old but I can kick your scrawny ass without much issue.",
+			"OutgoingEdgeIds": ["Edge35"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node24",
+			"NPCDialogue": "You disgusting guttersnipe. You stand there, on the shoulders of man infinitely greater to you, and promise salvation at the tip of the poisoned dagger. *SWINGS A HAMMER AT YOU.*",
+			"OutgoingEdgeIds": ["Edge36"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": true
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "I didn't replace anyone old timer. Father Glorian died. Somebody needed to step in and mayor thought I might be the wisest choice.",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "Charming, but despite what you think of me or The Lock and The Key, we are not devil worshipers. The old faith, one father Glorian preached, served us well, but we need to beseech God of Shepherds for salvation now.",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge7",
+			"PlayerDialogue": "Stop being dramatic. I speak of the worlds of God of Shepherds in no more fantastic terms, then the holy book speaks of your savior.",
+			"NextNodeId": "Node3",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge10",
+			"PlayerDialogue": "Stubborn old goat...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge8",
+			"PlayerDialogue": "If you bothered to listen with your one good ear, you would know that I preach of salvation from the God that is beyond, not some doom and gloom.",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge11",
+			"PlayerDialogue": "I don't have time to debate theology with you Logan. Show up tonight and you shall see what it's all about. With Hegemony on the way, it might be the last time you will have a chance.",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge13",
+			"PlayerDialogue": "I figured as much.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge12",
+			"PlayerDialogue": "You can see for yourself, what we're all about. With Hegemony on its way, you have nothing to lose. At least you get to spend the last night of our village among friends, rite or not.",
+			"NextNodeId": "Node6",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge14",
+			"PlayerDialogue": "Ungrateful old ass.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge9",
+			"PlayerDialogue": "Do your saints not watch you from beyond? Is your heavenly lord not promising to lead you through valleys of darkness? My God is no different in that regard, words are simply different.",
+			"NextNodeId": "Node7",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge15",
+			"PlayerDialogue": "So are you, old man. So we should be kindred spirits. Besides, I won't preach tonight, instead I will enact a ceremony. If you join, you won't be no worse for wear. Nothing will be asked of you.",
+			"NextNodeId": "Node8",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge17",
+			"PlayerDialogue": "Keep well, Logan.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge16",
+			"PlayerDialogue": "I suppose I am. But it is my ceremony that will save this village. Come, attend tonight as see for yourself if I am a fraud or not.",
+			"NextNodeId": "Node9",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge18",
+			"PlayerDialogue": "You shall be surprised Logan. Farewell for now.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "We're not devil worshipers old man. We simply revere power other than the God you know. He can help us... He can help you.",
+			"NextNodeId": "Node10",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge19",
+			"PlayerDialogue": "...damnation, that stubborn old fool.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "You are damned already, old man. Something about loving thy neighbor as thyself, which you seem to be failing at miserably. Might as well help us.",
+			"NextNodeId": "Node11",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge20",
+			"PlayerDialogue": "I'd accuse you of being full of shit. See? Two can play at that game.",
+			"NextNodeId": "Node12",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge21",
+			"PlayerDialogue": "I won't. I'm not some village witch or hedge sorcerer, old man! You know that the audit of Hegemony will be as gentle as bed of razorwire. Stop being difficult and let me help!",
+			"NextNodeId": "Node13",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge23",
+			"PlayerDialogue": "Thick headed bastard...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge22",
+			"PlayerDialogue": "What else should I call you old man? When you yourself ensnared yourself by your blind dislike of me and mine.",
+			"NextNodeId": "Node14",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge24",
+			"PlayerDialogue": "Fat old fuck...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "Ah, yes... Mr. Pressburg. Charming as always. I came to extend invitation to tonight's ceremony.",
+			"NextNodeId": "Node15",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge25",
+			"PlayerDialogue": "Are you always this grumpy or are you saving up your curmudgeonment uniquely for me?",
+			"NextNodeId": "Node16",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge27",
+			"PlayerDialogue": "And you reek of old alcohol and misery, yet I still ask for your help instead of sneering at you like a troglodyte you are.",
+			"NextNodeId": "Node17",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge28",
+			"PlayerDialogue": "Hegemony's bullet is too good for you...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge26",
+			"PlayerDialogue": "I agree. It's unbecoming for an old man to act like overgrown toddler, throwing tantrum.",
+			"NextNodeId": "Node18",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge29",
+			"PlayerDialogue": "One that will deliver you from clutches of Hegemony. Stop being pedantic, old man, and do something with your life that is worthwhile.",
+			"NextNodeId": "Node19",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge31",
+			"PlayerDialogue": "*KILLS LOGAN IN SELF DEFENSE.* Stupid old fuck...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": true
+		},
+		{
+			"EdgeId": "Edge30",
+			"PlayerDialogue": "It is a title and it's as good as any. Are you going to be dissecting semantics? I don't ask for much Logan, only that you show up and keep an open mind.",
+			"NextNodeId": "Node20",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge32",
+			"PlayerDialogue": "...And he fucking quotes... something, at me...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "Pressburg, charming as always. Say, if I told you we plan on enacting a ceremony to protect us from Hegemony, what would you respond to that?",
+			"NextNodeId": "Node21",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge33",
+			"PlayerDialogue": "Then you have precious little to lose. Bring your crucifix tonight, if it helps you feel better. If it proves to be snake oil, like you suspect, you can say you were right all along.",
+			"NextNodeId": "Node22",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge34",
+			"PlayerDialogue": "Can't belive that worked...",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "Lord above, why are you systematically such a colossal bitch, Logan?",
+			"NextNodeId": "Node23",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge35",
+			"PlayerDialogue": "Oh fuck off you limp, old todger. Do what this community needs of you, you rancid old fart, and come to the ceremony tonight!",
+			"NextNodeId": "Node24",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge36",
+			"PlayerDialogue": "*KILLS LOGAN IN SELF DEFENSE.* I should have know better than to talk to this old fuck.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": true
+		}
+	]
+}

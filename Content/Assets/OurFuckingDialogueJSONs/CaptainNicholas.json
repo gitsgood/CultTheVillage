@@ -1,0 +1,432 @@
+{
+	"NPCId": "01Captain",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Hmm, yes, hi there.",
+			"OutgoingEdgeIds": ["Edge0", "Edge1"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "Oooh, It! Now now, reminds me of something... yes. Mhh, aargh, well, my memory eludes me! Hahahaha",
+			"OutgoingEdgeIds": ["Edge2", "Edge3"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "A mass! Ha, didn't know old Fenric needs mass. Wait, who are we praying to again?",
+			"OutgoingEdgeIds": ["Edge4", "Edge5"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "Aaah, a good shepherd, worried for his flock. Or was it a boat? I'm more of a boat man myself actually. Do you like boats?",
+			"OutgoingEdgeIds": ["Edge6", "Edge7"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node4",
+			"NPCDialogue": "Oooh, I can help you with that! I know you're a godly man, attached to your nice chapel over there, but trust me when I say this, you'll never get closer to any god than while on a boat!",
+			"OutgoingEdgeIds": ["Edge8", "Edge9"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node5",
+			"NPCDialogue": "Hahaha, that was a nice joke! ... Why are you looking at me?",
+			"OutgoingEdgeIds": ["Edge10", "Edge11"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node6",
+			"NPCDialogue": "Hmm, yes, \"the king is\"... hmm, wait, oh yes, \"coming\". Ha, didn't know we had a king.",
+			"OutgoingEdgeIds": ["Edge12", "Edge13"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node7",
+			"NPCDialogue": "... that is not a good idea...",
+			"OutgoingEdgeIds": ["Edge14", "Edge15"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node8",
+			"NPCDialogue": "Fine. But you may not like what you See.",
+			"OutgoingEdgeIds": ["Edge16"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node9",
+			"NPCDialogue": "Please! I do not wish to SEE that! PLEASE... Spare me, spare this old man...",
+			"OutgoingEdgeIds": ["Edge17", "Edge18"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node10",
+			"NPCDialogue": "We are all boats, perhaps you are also blind, or perhaps you weren't shown?",
+			"OutgoingEdgeIds": ["Edge19", "Edge20"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node11",
+			"NPCDialogue": "Did I say that? Hmm, maybe I am indeed a fart, but who farted me? Is HE a fart too?",
+			"OutgoingEdgeIds": ["Edge21", "Edge22"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node12",
+			"NPCDialogue": "Say less, fart shepherd. I will be there.",
+			"OutgoingEdgeIds": ["Edge23"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node13",
+			"NPCDialogue": "Everyone? Including the good folks camping near?",
+			"OutgoingEdgeIds": ["Edge24"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node14",
+			"NPCDialogue": "But... the chapel scares me. I don't hear everything, but in there, there's SOMETHING that speaks to me, and I can't NOT hear it!",
+			"OutgoingEdgeIds": ["Edge25", "Edge26"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node15",
+			"NPCDialogue": "...Fine, but I won't be happy about it. ",
+			"OutgoingEdgeIds": ["Edge27"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node16",
+			"NPCDialogue": "Scarier? Ha, for a \"Hallowed\" one, you certainly underestimate your own god.",
+			"OutgoingEdgeIds": ["Edge28", "Edge29"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "Uh, hi to you too Nicholas... How, uh, goes it?",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "Oh, that's unfortunate... do you want to, mhh, join the mass today?",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "The names of the gods are not ours to know, but what we will pray for, today, is hopefully for the survival of our village.",
+			"NextNodeId": "Node3",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "I love boats, actually. I would love to sail in one before I die.",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge8",
+			"PlayerDialogue": "Thanks for the offer. Now would you be willing to join the rest of us in prayer? I'm afraid we'll never see a boat again if you don't join...",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge10",
+			"PlayerDialogue": "Are you deaf you senile old fart?!",
+			"NextNodeId": "Node6",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge12",
+			"PlayerDialogue": "(I have no time for this, fucking geezer is insane...) Ok, well, I guess I'll go now, come if you want...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge13",
+			"PlayerDialogue": "(*play along*) Yes, he is. Do you wish to meet them? To hear them? To SEE them?",
+			"NextNodeId": "Node7",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge14",
+			"PlayerDialogue": "LISTEN HERE you little SHIT. Hegemony army is coming, unless you wanna get squashed by some fucking idiot government official without even having the opportunity to be a dumbass, you WILL pray to whatever it is I tell you to pray at!",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge15",
+			"PlayerDialogue": "i think the Hegemony folk camping outside can think of worse ideas. Just join the damn mass.",
+			"NextNodeId": "Node8",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge16",
+			"PlayerDialogue": "Thank you, see you later then.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge11",
+			"PlayerDialogue": "You think this is a JOKE? I'm in a mood to show you what Glorian saw before he departed you useless flacid useless leech good-for-nothing parasite!",
+			"NextNodeId": "Node9",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge17",
+			"PlayerDialogue": "*show him the Unseeable*",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": true
+		},
+		{
+			"EdgeId": "Edge18",
+			"PlayerDialogue": "*deep breath* Fine, go rot away for all I care, I have no time for this.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge9",
+			"PlayerDialogue": "(Nah, this guy is useless to me, I must go) Ok, see you on the boats then...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge7",
+			"PlayerDialogue": "Are YOU a boat? Do you see ANY boats around here for me to like? Of course I am worried for my \"flock\", a fucking ARMY wants to destroy our way of life, destroy US.",
+			"NextNodeId": "Node10",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge19",
+			"PlayerDialogue": "*make boat noises(?)*",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge20",
+			"PlayerDialogue": "*leave the man to his ramblings*",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "Who the fuck is Fenric you crazy old fart?",
+			"NextNodeId": "Node11",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge21",
+			"PlayerDialogue": "We are all farts in a way. So come by my fart chappel, and pray with your fellow farts. Hopefully HE who farted us might come and save us from this cesspool.",
+			"NextNodeId": "Node12",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge23",
+			"PlayerDialogue": "Thank you, oh farted one.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge22",
+			"PlayerDialogue": "I farted you. Now fuck off.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "(This man's mind is mush, it might be for the best to cut my losses here) Well, nice seeing you here, I have to go now.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "Chapel, today, mass. EVERYONE needs to be there.",
+			"NextNodeId": "Node13",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge24",
+			"PlayerDialogue": "Listen here, EVERYONE means US. The VILLAGE. Come to the chapel, and trust me. We have better chances of making it out of this if you trust me.",
+			"NextNodeId": "Node14",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge25",
+			"PlayerDialogue": "That... is a good thing! You are blessed. All the more reason why we need you!",
+			"NextNodeId": "Node15",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge27",
+			"PlayerDialogue": "Thank you. See you there.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge26",
+			"PlayerDialogue": "I can show you something much scarier and certainly much more concrete... *clench your fist*",
+			"NextNodeId": "Node16",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge28",
+			"PlayerDialogue": "*punch the shit out of him, he is unfaithful to the bone*",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": true
+		},
+		{
+			"EdgeId": "Edge29",
+			"PlayerDialogue": "For someone who seems to know more than they should, you seem way too comfortable around me. Either show up at the chapel, or pray that whatever whispered to you in there does not find you outside of it.",
+			"NextNodeId": "",
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}

@@ -1,0 +1,288 @@
+{
+	"NPCId": "01HarryBazile",
+	"Nodes": 
+	[
+		{
+			"NodeId": "START",
+			"NPCDialogue": "Oh hey Good Shepherd, how goes it? I heard the enforcers of Hegemony are coming in for an counter-revolutionary audit. What should we do?",
+			"OutgoingEdgeIds": ["Edge0", "Edge1", "Edge2"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node1",
+			"NPCDialogue": "I see, hallowed one. I will be there, I swear it.",
+			"OutgoingEdgeIds": ["Edge3", "Edge4"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node2",
+			"NPCDialogue": "As you command hallowed one. I shall see to my family. We shall all attend the evening ceremony and deliver us from clutches of Hegemony.",
+			"OutgoingEdgeIds": ["Edge5"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node3",
+			"NPCDialogue": "But how, hallowed one? I have my father's rifle but we stand no chance against Hegemony's war machine!",
+			"OutgoingEdgeIds": ["Edge6", "Edge7", "Edge8", "Edge9"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node4",
+			"NPCDialogue": "I trust you, hallowed one. I shall go to my family and convey your plan to them. I hope you can deliver us.",
+			"OutgoingEdgeIds": ["Edge10"],
+			"bIsConvinced": true,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node5",
+			"NPCDialogue": "That sounds very... unorthodox, Good Shepherd. Is that safe? It sounds sacrilegious.",
+			"OutgoingEdgeIds": ["Edge11", "Edge12"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node6",
+			"NPCDialogue": "I understand, hallowed one. It is difficult to accept, but I shall trust your wisdom. We shall see you after sundown.",
+			"OutgoingEdgeIds": ["Edge13"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node7",
+			"NPCDialogue": "Lord above, deliver us. You... you have lost your mind Good Shepherd. I will not be part of this madness.",
+			"OutgoingEdgeIds": ["Edge14"],
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node8",
+			"NPCDialogue": "...Lord have mercy on our souls. That is... that is blasphemy beyond merit. I cannot be part of this!",
+			"OutgoingEdgeIds": ["Edge15"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node9",
+			"NPCDialogue": "I... I understand hallowed one. My sincerest apologies about having upset you. I shall let my family know about the ceremony.",
+			"OutgoingEdgeIds": ["Edge16"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node10",
+			"NPCDialogue": "Uhhhh... my name is Harry, not Henry, Good Shepherd. I think I will pass on that. It seems you might not need me.",
+			"OutgoingEdgeIds": ["Edge17"],
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"NodeId": "Node11",
+			"NPCDialogue": "Yes, Good Shepherd! I will be there!",
+			"OutgoingEdgeIds": ["Edge18"],
+			"bIsConvinced": true,
+			"bIsAngered": true,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	],
+	"Edges":
+	[
+		{
+			"EdgeId": "Edge0",
+			"PlayerDialogue": "Blessings of The Key and The Gate upon you, young Harry. The United Workers' Hegemony is indeed coming. We must prepare. I will be conducting a ceremony tonight. I would love for you and yours to join in on it.",
+			"NextNodeId": "Node1",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge3",
+			"PlayerDialogue": "Good lad. I knew you were smart boy. Now run along and tell your family to prepare. After sundown, the ceremony shall commence and I want us all to be ready.",
+			"NextNodeId": "Node2",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge5",
+			"PlayerDialogue": "Blessings of the God of Shepherds be upon you.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge4",
+			"PlayerDialogue": "Eagerness and bravery is exactly what we need right now! Today we shall save our homes from Hegemony.",
+			"NextNodeId": "Node3",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge6",
+			"PlayerDialogue": "That is not for one such as you to know, young man. Now until the hour is nigh and all preparations are done. All shall be revealed during the ceremony.",
+			"NextNodeId": "Node4",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge10",
+			"PlayerDialogue": "May the God of Shepherds illuminate your path, young man.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge7",
+			"PlayerDialogue": "I shan't lie to you young man. It will involve rites long since forgotten and contacting being beyond. Think of them as God's angels. Fear them, but don't despair for they shall be our salvation.",
+			"NextNodeId": "Node5",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge11",
+			"PlayerDialogue": "Names of ancient things were meant to invoke reverence and awe. Don't be afraid. The rite will be safe and the God of Shepherds shall extend his protection upon us.",
+			"NextNodeId": "Node6",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge13",
+			"PlayerDialogue": "Trust the God of Shepherds and all will be well.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge12",
+			"PlayerDialogue": "Great Hastur, the King in Yellow, is the answer to our prayers. Have faith, young man and we shall be delivered.",
+			"NextNodeId": "Node7",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge14",
+			"PlayerDialogue": "No, WAIT!..",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": true,
+			"bIsAntagonistic": true,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge8",
+			"PlayerDialogue": "What I now tell you is for your ears only. We shall invoke 973 invocative names of Hastur, the King in Yellow, and bind our village to its inviolable will. It will deliver us from Hegemony.",
+			"NextNodeId": "Node8",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge15",
+			"PlayerDialogue": "No! WAIT!!!",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge9",
+			"PlayerDialogue": "I shall tell you only once boy. The secrets of The Key and The Gate is not for uninitiated to know. Show up, be punctual and bring your family.",
+			"NextNodeId": "Node9",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge16",
+			"PlayerDialogue": "Be on your way Harry.",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge1",
+			"PlayerDialogue": "Blessings of The Key and The Gate upon you young Henry. The Hegemony is indeed coming. We must must prepare. I will be conducting a ceremony tonight. I would love for you to join in on it.",
+			"NextNodeId": "Node10",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge17",
+			"PlayerDialogue": "Ah, my apologies young man, I have a lot on my mind...",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge2",
+			"PlayerDialogue": "Young man, I feel like you take this very flippantly. I need you to show up at the Chapel of Saint Propastnyk after sundown. Be there!",
+			"NextNodeId": "Node11",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		},
+		{
+			"EdgeId": "Edge18",
+			"PlayerDialogue": "Be sure you do!",
+			"NextNodeId": "",
+			"bIsConvinced": false,
+			"bIsAngered": false,
+			"bIsAntagonistic": false,
+			"bIsVillagerKilled": false
+		}
+	]
+}
